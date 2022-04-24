@@ -1,0 +1,48 @@
+$headerC: rgb(44, 4, 44);
+$navC: rgb(44, 4, 44);
+$mainC: rgb(23, 18, 27);
+$white: rgb(235, 235, 235);
+$Lwhite: rgba(235, 235, 235, 0.6);
+$black: rgb(5, 0, 19);
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: $mainC;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: $white
+}
+p, h1, h2, h3, h4, h5, h6, a {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+
+}
+
+//SCROLL BAR
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: $Lwhite;
+    border-radius: 1em;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: $white;
+}
